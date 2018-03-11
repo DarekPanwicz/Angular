@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import {EmployeesModule} from "./employees/employees.module";
 import { AppComponent } from './app.component';
+import { MyNewPipePipe } from './my-new-pipe.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyNewPipePipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    EmployeesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

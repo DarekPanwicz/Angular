@@ -4,7 +4,7 @@ export interface Employee {
     id: number;
     firstName:string;
     lastName:string;
-    dateOfBirth: number;
+    dateOfBirth: string;
     active: boolean;
     details: Details
 }
